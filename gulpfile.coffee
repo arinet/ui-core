@@ -117,12 +117,12 @@ gulp.task 'pack', ['generate', 'templates'], (done)->
       console.log err
     done()
 
-gulp.task 'minify', ['pack'], ->
-  gulp.src Path.join paths.dist, paths.outFile
-    .pipe uglify()
-    .pipe rename({ suffix: '.min' })
-    .pipe gulp.dest paths.dist
+# gulp.task 'minify', ['pack'], ->
+#   gulp.src Path.join paths.dist, paths.outFile
+#     .pipe uglify()
+#     .pipe rename({ suffix: '.min' })
+#     .pipe gulp.dest paths.dist
 
 gulp.task 'templates', ['uiTpls', 'strapTpls']
 
-gulp.task 'build', ['pack', 'minify']
+gulp.task 'build', ['pack']
