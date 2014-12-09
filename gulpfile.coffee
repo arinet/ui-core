@@ -79,7 +79,7 @@ gulp.task 'uiTpls', ->
     .pipe(gulp.dest(paths.src))
 
 gulp.task 'strapTpls', ->
-  gulp.src _(strapTpls).map((t)-> t.slice(3))
+  gulp.src strapTpls
     .pipe(templateCache(paths.strapTpls, { 
       module: 'ari.ui.core.ng-strap-templates', 
       standalone: true,
