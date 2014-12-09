@@ -1,0 +1,19 @@
+{
+  "name": "ari-ui-core",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Jon Jaques <jon.jaques@arinet.com>",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.3.5"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "gulp": "^3.8.10",
+    "gulp-angular-templatecache": "^1.4.2",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.0.2",
+    "underscore": "^1.7.0",
+    "webpack": "^1.4.13"
+  }
+}
