@@ -18,7 +18,7 @@ paths =
   strapTpls: 'strap-templates.js'
   uiBootstrap: './bower_components/angular-ui-bootstrap/src'
   uiTemplates: './bower_components/angular-ui-bootstrap/template'
-  ngStrap: './bower_components/angular-strap/src'
+  ngStrap: './bower_components/angular-strap'
 
 components = 
   'ui.bootstrap.accordion'              : "#{paths.uiBootstrap}/accordion/accordion.js"
@@ -35,9 +35,9 @@ components =
   'ui.bootstrap.tabs'                   : "#{paths.uiBootstrap}/tabs/tabs.js"
   'ui.bootstrap.transition'             : "#{paths.uiBootstrap}/transition/transition.js"
   'ui.bootstrap.position'               : "#{paths.uiBootstrap}/position/position.js"
-  'mgcrea.ngStrap.helpers.dimensions'   : "#{paths.ngStrap}/helpers/dimensions.js"
-  'mgcrea.ngStrap.popover'              : "#{paths.ngStrap}/popover/popover.js"
-  'mgcrea.ngStrap.tooltip'              : "#{paths.ngStrap}/tooltip/tooltip.js"
+  'mgcrea.ngStrap.helpers.dimensions'   : "#{paths.ngStrap}/src/helpers/dimensions.js"
+  'mgcrea.ngStrap.popover'              : "#{paths.ngStrap}/dist/modules/popover.js"
+  'mgcrea.ngStrap.tooltip'              : "#{paths.ngStrap}/dist/modules/tooltip.js"
   'ari.ui.core.ui-bootstrap-templates'  : "./#{paths.src}/#{paths.uiTpls}"
   'ari.ui.core.ng-strap-templates'      : "./#{paths.src}/#{paths.strapTpls}"
 
@@ -55,8 +55,8 @@ uiTpls = [
 ]
 
 strapTpls = [
-  "#{paths.ngStrap}/popover/*.html"
-  "#{paths.ngStrap}/tooltip/*.html"
+  "#{paths.ngStrap}/src/popover/*.html"
+  "#{paths.ngStrap}/src/tooltip/*.html"
 ]
 
 createModule = (name, comps)->
