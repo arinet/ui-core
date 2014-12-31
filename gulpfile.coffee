@@ -35,7 +35,7 @@ components =
   'ui.bootstrap.tabs'                   : "#{paths.uiBootstrap}/tabs/tabs.js"
   'ui.bootstrap.transition'             : "#{paths.uiBootstrap}/transition/transition.js"
   'ui.bootstrap.position'               : "#{paths.uiBootstrap}/position/position.js"
-  'mgcrea.ngStrap.helpers.dimensions'   : "#{paths.ngStrap}/src/helpers/dimensions.js"
+  'mgcrea.ngStrap.helpers.dimensions'   : "#{paths.ngStrap}/dist/modules/dimensions.js"
   'mgcrea.ngStrap.popover'              : "#{paths.ngStrap}/dist/modules/popover.js"
   'mgcrea.ngStrap.tooltip'              : "#{paths.ngStrap}/dist/modules/tooltip.js"
   'ari.ui.core.ui-bootstrap-templates'  : "./#{paths.src}/#{paths.uiTpls}"
