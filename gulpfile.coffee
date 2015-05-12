@@ -16,9 +16,9 @@ paths =
   outFile: 'built.js'
   uiTpls: 'ui-templates.js'
   strapTpls: 'strap-templates.js'
-  uiBootstrap: './bower_components/angular-ui-bootstrap/src'
-  uiTemplates: './bower_components/angular-ui-bootstrap/template'
-  ngStrap: './bower_components/angular-strap'
+  uiBootstrap: './node_modules/angular-ui-bootstrap/src'
+  uiTemplates: './node_modules/angular-ui-bootstrap/template'
+  ngStrap: './node_modules/angular-strap'
 
 components = 
   'ui.bootstrap.accordion'              : "#{paths.uiBootstrap}/accordion/accordion.js"
